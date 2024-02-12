@@ -1,0 +1,1631 @@
+# a=1
+# b=20
+# c=a+b
+# print(c)
+#
+# print('ypgesh tarachand bhoi')
+#
+# a=10
+# b=15.5
+# c=a+b
+# print(c)
+# print('sum two nos=',c)
+#
+#
+#
+# x= 16
+# res=x** 0.5
+# print('squre root=',res)
+#
+# print(res)
+#
+#
+# str='yogesh bhoi tarachand bhoi'
+# print(str)
+#
+# x=None
+# print(x)
+# type(None)
+# print(type)
+#
+# Num=1234
+# type(Num)
+# print(Num)
+# print(type)
+#
+#
+# a=5+3j
+# b=4-6J
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+import sys
+
+
+# x= True
+# y=False
+# print(x and y)(two condition satisfy)
+# print(x and x)(both conditi true total condition true)
+# print(y or y)(both condition false)
+# print(x or y)
+
+
+# x=True
+# Nuty=False
+# type(x)
+# print(x)
+#
+# book="core pytho book"
+# print(book)
+
+# #length function
+# str='yogesh tarachand bhoi'
+# a=(len(str))
+# print(a)
+# print(len(str))
+
+
+
+# a='''yogesh'''
+# print(a)
+#
+# str='yogesh bhoi'
+# a=str.upper()
+# print(a)
+#
+# b=str.lower()
+# print(b)
+# c=str.title()
+# print(c)
+
+
+# #space function remove
+# name ='   yogesh bhoi      '
+# a=name.strip()
+# print(a)
+# b=name.rstrip()
+# print(b)
+# c=name.strip()
+# print(c)
+
+
+# postion no word
+# book='this  is my book'
+# a=book.index('is')
+# print(a)
+# b=book.index('is',3)
+# print(b)
+# c=book.index('my')
+# print(c)
+
+
+
+# fuction
+# book='this my pen is to drow box is can be '
+# a=book.count('is')
+# print(a)
+#
+# b=book.replace('is','was')
+# print(b)
+#
+# s1='haydra'
+# s2='bad'
+# c=s1+s2
+# print(c)
+
+#word occurance no
+#
+# str='this is my new word and new city nashik '
+# a=(len(str))
+# print(a)
+# a=str[0]
+# print(a)
+# b=str[1]
+# print(b)
+# c=str[17]
+# print(c)
+# s=str[38]
+# print(s)
+#
+# print(str[0:3])
+# print(str[3:4])
+# print(str[2:6])
+# print(str[:9])
+# print(str[:])
+# print(str[:4])
+# print(str[:38:2])
+
+
+#reverse orders slicing
+
+# str='this is core python'
+# print(str[18:12:-1])
+#
+# print(str[:12:-1])
+#
+# print(str*2)
+#
+# print(3*str)
+
+
+#char data type
+# str='yogesh bhoi'
+# print(str[0])
+# print(str[3])
+# print(str[2])
+# print(str[6])
+# print(str[0])
+
+#loof mens one one by chaarcters
+# str='hellow'
+# for i in str:print(i)
+#
+# for i in str:print(i,end='\n')
+# for i in str:print(i,end=' ')
+
+#bytes datatypes only positive no reprentive range(0,255)(can not change)
+#
+# b=bytes([10,20,30,40,50,60,70])
+# for i in b:print(i)
+
+# #batrarry datatype =similar to bytes datatype [ can be modify]
+#
+# ba=bytearray([10,20,30,40,50,60])
+#
+# for i in ba:print(i)
+#
+# a=ba[0]
+# print(a)
+#
+# print(ba[1])
+#
+#
+# a=ba[0]=200
+# print(a)
+#
+# for i in ba:print(i)
+#
+#
+#[list  mention [] brackets  list element can be modify
+
+# lst=[10,30,40,'ajay',30]
+# # print(lst[2])
+#
+# a=lst.append('yogesh')
+# print(a)
+# print(lst)
+#
+# print(lst.append(('y')))
+
+# print(lst[-3:-1])
+#
+# lst=[10,20,30,40,50]
+# print(len(lst))
+#
+# print(lst.remove(40))
+# del lst[0]
+# print(lst)
+# lst = [1, 2, 3, 4, 5, 10]
+# del lst[5]
+# print(lst)
+
+
+# s=[20,30,40,59,67776]
+# print(max(s))
+#
+# print(min(lst))
+#
+# lst=[10,20,30,40,50,60,'ajay','yogesh']
+# a=lst.index(10)
+# print(a)
+#
+# print(lst.insert(1,44))
+# print(lst)
+#
+# print(lst.count('ajay'))
+#
+# s=lst[1]=11
+# print(s)
+# print(lst)
+#
+# lst.sort()
+# print(lst)
+#
+# print(lst.remove(10))
+# print(lst)
+#
+# lst = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+# lst.sort()
+# print(lst)
+#
+# lst.reverse()
+# print(lst)
+#
+# lst.sort(reverse=True)
+# print(lst)
+
+# #touple shoted valus
+# tpl=(10,20,30,40,50,60)
+# print(tpl)
+#
+# print(tpl[0])
+#
+# print(tpl[0:2])
+# print(tpl[0:3])
+# a=sorted(tpl)
+# print(a)
+#
+# tpl = (3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5)
+# sorted_tpl = sorted(tpl)
+# print(sorted_tpl)
+
+#range data type
+# r=range(0,10,2)
+# for i in r:print(i)
+#
+# r1=range(50,40,-2)
+# for i in r1:print(i)
+
+#set data type
+#
+# s={1,2,3,4,5,67,8,8,9,'yogesj'}
+# print(s)
+#
+# s.remove(5)
+# print(s)
+#
+# s = frozenset([1,5,6,7,8])
+# for i in s:
+# #     print(i)
+#
+# st={10: 'yogesh',11: 'bhoi',12: 'yyy',13: 'ddd',14: 'ccdad',15:'ddd'}
+# type (st)
+# print(type)
+# a=name=st[11]
+# print(a)
+#
+# st[11]=100
+# print(st)
+#
+#
+# st[16]='yih'
+# print(st)
+#
+#
+# del(st[11])
+# print(st)
+#
+#
+# k=st.keys()
+# print(k)
+#
+#
+# k=([1,2,4,5,6,7,8,9])
+# for i in k:print(i)
+#
+#
+#
+# v=st.values()
+# print(v)
+#
+# v=(['yyy','ttt','oooo','www'])
+# for i in v:print(i)
+#
+#
+# for k,v in st.items():print(k,v)
+#
+#
+# st=[10,20,30,40,50]
+# print(30 in st)
+#
+# if 30 in st:print('found')
+#
+#
+# if 30 not in st:print('found')
+#
+#
+#
+# a,b,c,d=1,2,3,4
+# print(a,b,c,d)
+#
+# a=a<b<c<d
+# print(a)
+#
+#
+# a=a<b>c>d
+# print(a)
+#
+#
+# #
+# #dispaly employees data
+#
+# id=20
+# name='yogesh'
+# sal=40000
+#
+# print(id)
+# print('yourname=',name)
+# print('salary=',sal)
+#
+# print('id=',id,'salary=',sal,'yourname=',name)
+#
+# print('id={},yourname={},salary={}' .format(id,sal,name))
+#
+
+
+#input function
+#
+# print('enter a string')
+# str=input()
+# print('u entered=',str)
+#
+# print('enter a string:',end=' ')
+# str=input()
+# print('u entered=',str)
+#
+
+
+# str=input('enter a char:')
+# print('U entered=',str[0])
+#
+#
+# str=input('enter an intiger:')
+# n=int(str)
+# print('u entered=',n)
+
+#we can assign a function
+# def square(x):
+#     return x*x
+# x=square(5)
+# print(x)
+#
+# def display(fun):
+#     res =(fun)()
+#     return 'hallow'+res
+# def f():
+#     return 'krish'
+# str =display(f)
+# print(str)
+
+#we can writr the function inside another function
+#we can a write the fuction  fron ana ther function
+#
+# def display():
+#     def inner():
+#         return'krish'
+#     return 'hellow'+inner()
+# str=display()
+# print(str)
+
+
+#recresive function
+# def fact(n):
+#     if n==0:
+#         res=1
+#     else:
+#         res=n*fact(n-1)
+#     return res
+# r=fact(4)
+# print(r)
+#
+# #decorator that incrimental the values another fun by 10
+# def decore (fun):
+#     def inner():
+#         res=fun()
+#         res=res+10
+#         return res
+#     return inner
+# def fun():
+#     return 100
+# name=decore(fun)
+# n=name()
+# print(n)
+
+
+# def gen(m,n):
+#     while m<=n:
+#         print(m)
+#         m+=1
+# gen(10,20)
+
+# def gen(m,n):
+#      while m<=n:
+#          yield m
+#          m+=1
+# g=gen (10,20)
+# print(g)
+
+#arith.py moduls
+# def add(a,b):
+#     c= a+b
+#     print('sum=',c)
+# def sub(a,b):
+#     c = a-b
+#     return c
+
+# str=input('enter an integer')
+# n= int (str)
+# print('U entered=',n)
+#
+
+#float no
+# n= float(input('enter an intiger:'))
+# print(n)
+
+
+#sum values
+
+# a=int(input('enter a first no='))
+# b=int(input('enter an second no:'))
+# c=a+b
+# print(c)
+
+# three no from kb
+# a=int(input('enter an first no:'))
+# b=int(input('inter an second no:'))
+# c= int(input('enter an third no:'))
+# total=a+b+c
+# print(total)
+
+
+
+# a,b,c = [float(i) for i in input('enter three no:') .split()]
+# total = a+b+c
+# print(total)
+#
+#
+# a,b,c=[int (i) for i in '10 20 30' .split()]
+# total=a+b+c
+# print(total)
+
+# lst=[int(i) for i in input('enter nos:').split()]
+# print(lst)
+
+# avrages
+# lst=(11,12,13,13,14,14)
+# s=sum (lst)
+# avg=s/len(lst)
+# lst=[i for i in input('enter string:').split(',')]
+# print(lst)
+#
+# a=lst.sort()
+# print(a)
+
+# to test if agivan no is a evan odd
+# n= int(input('enter a no:'))
+# if n%2==0:
+#      print(n,'is even')
+#      print('yes')
+#
+# n=int(input('enter a no:'))
+# if n%2==0:
+#     print(n,'is odd')
+#     print('yes')
+#     print('end')
+
+
+# n=int(input('enter a no:'))
+# if n%2==0:
+#     print(n,'is even:')
+#     print('yes')
+# else:
+#     print(n,'is odd')
+#     print('no')
+
+# n= int(input('enter a no:'))
+# if  n==0:
+#     print('it is zero')
+# elif n%2==0:
+#     print(n,'is even')
+#     print('yes')
+# else:
+#     print(n,'is odd')
+#     print('no')
+
+# day chart
+# day=int(input('enter day no'))
+# if day==1:
+#     print('sun')
+# elif day==2:
+#     print('mon')
+# elif day==3:
+#     print('thu')
+# elif day==4:
+#     print('wen')
+# elif day==5:
+#     print('thu')
+# elif day==6:
+#     print('fri')
+# elif day==7:
+#     print('satu')
+# else:
+#     print('wrong day number')
+
+ #while loof
+
+# x= 1
+# while x<=10:
+#      print(x)
+#      x=x+1
+#
+# x=1
+# while x<=10:
+#     print(x)
+#     x=x+1
+#     print('end')
+
+# x=10
+# while x<=20:
+#     print(x)
+#     x=x+1
+#
+
+# for loofr
+# r   = range(1,11)
+# for i in r:
+#     print(i)
+#
+# for i in r:print(i,end=' ')
+# r= range(10,20, 2)
+# for i in r:print(i,end= ' ')
+#
+# lst=[1,2,3,4,5,6,7,8,9]
+# for i in lst:
+#     if i%2==0:
+#         print(i)
+#
+
+# mylist=[2,4,5,-6,10]
+# total=0
+# for i in mylist:
+#     total=total+i
+# print(total)
+#
+# total=sum(mylist)
+# print(total)
+
+
+# lst=[10,20,30,40,50,60,70]
+# n= int(input('enter a no='))
+# for i in lst:
+#     if n==i:
+#        print('found')
+#
+# lst[10,20,30,40,50]
+# n=int(input('enter a no:'))
+#
+# for i in lst:
+#     if n==i:
+#         print('found')
+#     else:
+#         print(' not found')
+
+# st=[10,2]
+# total=sum(st)
+# print(total)
+
+# breake atatement
+# x=1
+# while x<=10:
+#     print(x)
+#     if x>=5: break
+#     x+=1
+# print('end')
+
+
+# continue statement
+# x=0
+# while x<10:
+#       x=x+1
+#       if x>5:continue
+#       print(x)
+#
+
+# tpl=(1,2,3,4,5,-6,-7,-7)
+# for x in tpl:
+#     if x<=0:
+#         print(x)
+#
+# for x in tpl:
+#     if x<0:
+#         print(x)
+#
+# for x in tpl:
+#     if x<0:
+#         print(x)
+#     else:
+#         print(x)
+
+
+#pass atatement
+# tpl=[1,2,3,4,5,6,7,8,-7,-3,-3]
+# lst=[]
+# for x in tpl:
+#     if x>=0:
+#         pass
+#     else:
+#         lst.append(x)
+# print(lst)
+
+
+#assert statement
+
+# num=int(input('enter a no (10-20):'))
+# assert num>=10 and num<=20 ,'invalid input'
+# print(num)
+
+#  function
+
+# def add (x,y):
+#     z=x+y
+#     print('sum=',z)
+# add(10,20)
+
+
+# write the lambda to find squre values of a givan no.
+# def square (x):
+#     return x*x
+# res =square(5)
+# print(res)
+#
+# x=lambda a,b:a+b
+# print(x(10,11))
+#
+# def even_odd(n):
+#     if n%2==0:
+#         return 'even'
+#     else:
+#         return 'odd'
+# str=even_odd(4)
+# print(str)
+#
+# s=lambda n:'even' if n%2==0 else 'odd'
+# print(s(5))
+
+
+#filter function
+# lst=[1,2,3,4,5,6,7,8,8]
+# obj=filter(lambda x:x%2==0,lst)
+# print(list(obj))
+#
+# for i in obj:print(i)
+
+# map function
+# lst=(1,2,3,4,5,6,8,8,9)
+# a=map(lambda x: x*x, lst)
+# print(list(a))
+#
+# import functools
+# my=[2,3,4,5,6,-6,7]
+# result=functools.reduce(lambda x,y: x*y,my)
+# print(result)
+#
+#
+# def add (x,y):
+#     c=x+y
+#     print('sum=',c)
+# add(10,20)
+#
+# def square(x):
+#     res=x*x
+#     print(res)
+# square(10)
+
+# def square(x):
+#     a=x*x
+#     print(a)
+#     return
+# square(11)
+# y=square(9)
+
+#add and subscribe function
+
+# def add_sub(a,b):
+#     x=a+b
+#     y=a-b
+#     return x,y
+# x,y=add_sub(10,15)
+# print(x,y)
+
+#add function
+# def add_sub(a,b):
+#     x=a+b
+#     y=a-b
+#     return x,y
+# a=int(input('enter a no:'))
+# b=int(input('enter a no:'))
+# print(x)
+# print(y)
+
+# inside  function(only use inside not use ooutside
+
+# def display():
+#     x=10
+#     print(x)(
+# display()
+
+
+# def display():
+#     x=20
+#     print(x)
+# display()
+
+# global vareb usr two side use inside and outside
+
+# g=22
+# def display():
+#     x=10
+#     print(x)
+#     print(g)
+# display()
+# print(g)
+
+# b=11
+# def display():
+#     x=20
+#     print(x)
+#     g=globals()['b']
+#     print(g)
+# display()
+#
+
+# aggruments types
+#(1)=positional agrument(pass only correct position)
+#(concating)(change postion allowed)
+# def join(s1,s2):
+#     str=s1+s2
+#     print(str)
+# join('hydra','bad')
+# join('baad','hydra')
+#
+# def join(y2,y3):
+#     str=y2+y3
+#     print(str)
+# join('yog','raj')
+
+#(2)= keyword agrument(# change the position same out put)
+# s2=keyword
+# s1=keyword
+
+# def join(s1,s2):
+#     a=(s1+s2)
+#     print(a)
+# join('jay','gru')
+#
+# # ex (2)
+
+
+# def join(a1,a2):
+#     a=a1+a2
+#     print(a)
+# join(a2='gru',a1='jay')
+
+
+# default agrument
+# def a(item,price=20):
+#     print('item name=' ,item)
+#     print('price=',price)
+# a('oil')
+#
+# def b(item,price=50):
+#     print('itemname=',item)
+#     print('price=',price)
+# b('sugar')
+
+
+
+#variabal length agruments
+# strore and more values
+# variabel agrument(*) darvatata
+
+# def add(x,*y):
+#     total=x+sum(y)
+#     print(total)
+# add(100,1,2)
+# add(102,3,4)
+#
+#
+# def add(a,*y):
+#     total=a+sum(y)
+#     print(total)
+# add(200,3,4)
+# add(100,1,2)
+
+
+#chapter notes
+
+# function== objects
+#(1)=assign function variable
+#x=10(x=variale,10=objects)
+
+# def square(x):
+#     return x*x
+# x=square(5)
+# print(x)
+
+# def square(x):
+#      return x*x
+# x=square(10)
+# print(x)
+
+
+# we can pass a function to another function
+# # call function
+# def display(fun):
+#     res=fun()
+#     return 'yigesh'+res
+# def f():
+#     return 'krish'
+# str=display(f)
+# print(str)
+#
+# def display(fun):
+#     res=fun()
+#     return 'bhoi'+res
+# def f():
+#     return 'krish'
+# str=display(f)
+# print(str)
+
+#we can write inside another function
+# a function write inside another fun is called 'inner function or nested function
+
+
+# def display():
+#     def inner():
+#         return 'krish'
+#     return 'hllow'+inner()
+# str=display()
+# print(str)
+
+
+#array
+# import numpy as np
+# arr=np.array([1,2,3,4,5,5,67,77])
+# print(arr)
+# for i in arr:print(i)
+#
+# a=np.array(['hyd','bombay'])
+# print(a)
+
+
+# (linspace(two part cutting in euqal postion)
+# x=np.linspace(0,10,5)
+#  print(x)
+#
+
+
+#logspace(staring pont 10 powae 1)
+
+# x=np.logspace(1,4,5)
+# print(x)
+
+#range function(0-10)
+# y=np.arange(10)
+# print(y)
+###################################
+##zeros function by default 0
+# x=np.zeros(6,int)
+# print(x)
+#######################################
+# by defult zero values
+# c=no.zeros(4)
+# print(c)
+################################3332
+# arrays append 5
+# import numpy as np
+# a=np.array([10,20,30,40])
+# print(a)
+# b= a+5
+# print(b)
+################################
+
+# all function use array
+# import numpy as np
+
+# a = np.array([10, 20, 30, 40,])
+# print(a)
+
+# b = a + 5
+# print(b)
+# c= a*2
+# # print(c)
+# d=np.sqrt(a)
+# print(d)
+# t=np.power(a,3)
+# print(t)
+# print(sum(a))
+# s=np.prod(a)
+# print(s)
+# print(min(a))
+# print(max(a))
+
+# x=np.argmin(a)
+# print(x)
+#
+# print(sorted(a))
+# print(sorted(a)[::-1])
+#####
+# #operation 1D
+# a=np.array([1,2,3,45,6,7,89])
+# print(a)
+#
+# print(a[0])
+# print(a[3])
+# print(a[0:3])
+# print([a*2])
+#
+# from numpy import*
+# arr=array([10,20,30,40,40.50])
+# print(arr)
+# x=arr
+# print(x)
+# print(x[1])
+#
+# a=x[1]=11
+# print(x)
+# x=arr.view()
+# print(x)
+#
+
+
+#atribute array
+
+# import numpy as np
+#
+# arr = np.array([203, 303, 404, 333, 33, 22])
+# a = arr.ndim
+# print(a)
+#
+# x=np.array([[1.1,2.3,3.],[4.,5.,-6.6]])
+# print(x)
+# a=x.ndim
+# print(a)
+#
+# x=np.array([10,2,3,4,5,5])
+# a=x.shape
+# print(a)
+
+# a=np.array([1,2,3,4,5,6])
+# s=a.itemsize
+# print(s)
+
+
+#
+# c=a.nbytes
+# print(c)
+
+#
+# a=np.array(([1,2,3,4,5]))
+# c=a.dtype
+# print(c)
+
+#
+# import numpy as np
+# b=np.array([2,3,4,5,6,7])
+# c=np.arange(3)
+# print(c)
+#
+# y=b.reshape(2,3)
+# print(y)
+#
+# import numpy as np
+#
+# b = np.array([2, 3, 4, 5, 6, 7])
+# c = np.arange(6)
+# print(c)
+# c=b.reshape(2,3)
+# print(c)
+############################
+# b=np.array([1,2,3,4,5,6])
+# r=b.flatten()
+# print(r)
+
+#
+# import numpy as np
+# arr=np.array([[1,2,3],[3,2,1],[4,4,-1]])
+# print(arr)
+#
+# a=np.ones((3,4),dtype=float)
+# print(a)
+#
+#
+# import numpy as np
+#
+# arr = np.array([[1, 2, 3], [3, 2, 1], [4, 4, -1]])
+# print(arr)
+#
+# a = np.zeros((3, 4), int)
+# print(a)
+#
+# c=np.eye(4,dtype=int)
+# print(c)
+#
+# a=np.array([1,2,3,4,5,6,7,8,9])
+# c=np.eye(4,dtype=int)
+# print(c)
+
+#operations
+# arr=np.array([[1,2,3,],[4,5,6],[7,8,9]])
+# print(arr)
+# a=arr[0]
+# print(a)
+#
+# b=arr[0,1]
+# print(b)
+# c=arr[2,0]
+# print(c)
+# d=arr[0:2,0:2]
+# print(d)
+
+#matri ximport numpy as np
+# str="10,20,30;20,30,40;50,60,70"
+# m1=np.matrix(str)
+# print(m1)
+#
+# arr=np .array([[1,2,3],
+#                [3,2,0],
+#                [4,4,1]])
+# # m2=np.matrix(arr)
+# print(m2)
+# a=m1+m2
+# print(a)
+
+# c=m1*m2
+# print(c)
+# z=m1.transpose()
+# print(z)
+
+
+
+# d=np.diagonal(m1)
+# print(d)
+# a=m1.mean()
+# print(a)
+# v=m1.max()
+# print(v)
+
+# a=np.sort(m1)
+# print(a)
+#
+#
+# x=np.sort(m1, axis=0)
+# print(x)
+#
+#
+# x = np.sort(arr, axis=0)
+#
+# print(x)
+
+
+
+
+
+# import numpy as np
+#
+# # prompt user for number of rows and columns
+# r, c = [int(i) for i in input('How many rows, columns? ').split(',')]
+#
+# # create a 2D NumPy array of zeros with the specified shape
+# arr = np.zeros((r, c), dtype=int)
+#
+# # prompt user to enter values for the array
+# print('Enter elements in matrix form:')
+# for i in range(r):
+#     arr[i] = [int(x) for x in input().split()]
+#
+# # create a NumPy matrix from the array
+# m = np.matrix(arr)
+#
+# # take the transpose of the matrix
+# m1 = m.transpose()
+
+
+
+
+
+# print the transpose matrix
+# print('Transpose matrix is:')
+# print(m1)
+
+# core python (advance python)
+#(chapte
+
+
+#  chapter 11)
+
+# class Person:
+#     def __init__(self):
+#         self.name = 'Yogesh'
+#         self.age = 33
+#
+#     def talk(self):
+#         print('Hello, I am', self.name)
+#         print('My age is', self.age)
+#
+# p1 = Person()  # Corrected the class name to Person
+# print(p1.name)
+# print(p1.age)
+# p1.talk()
+#
+# p2=person()
+# p2.talk()
+
+
+
+#chapter 12 (class objects problems)
+
+# class Student:
+#     def __init__(self):
+#         self.rno = 10
+#         self.name = 'yogesh'
+#         self.marks = [89, 90, 92]
+#
+#     def display(self):
+#         print('rno =', self.rno)
+#         print('name =', self.name)
+#         total = sum(self.marks)
+#         print('total marks =', total)
+#         percentage = total / len(self.marks)
+#         print('percentage = %.1f%%' % percentage)
+#
+# s = Student()
+# s.display()
+
+
+# seconds way problems)
+# class Student:
+#     def __init__(self, rno, name, marks):
+#         print('rno =', rno)
+#         print('name =', name)
+#         print('marks =', marks)
+#         self.rno = rno
+#         self.name = name
+#         self.marks = marks
+#
+#     def display(self):
+#         print('rno =', self.rno)
+#         print('name =', self.name)
+#         total = sum(self.marks)
+#         print('total marks =', total)
+#         percentage = total / len(self.marks)
+#         print('percentage = %.1f%%' % percentage)
+#
+# id=int(input('enter a id:'))
+# name= input('enter name:')
+# lst=([int (i) for i in input('enter mark').split(',')])
+
+
+# s= Student(id,name,lst)
+# s.display()
+#
+
+#accessr and mutator method
+# class Emp:
+#    def __init__(self):
+#        self.id=1001
+#        self.name='vunay'
+#    def getid(self):
+#        return self.id
+#    def getname(self):
+#        return self.name
+# e=Emp()
+# print('id=',e.getid())
+# print('name=', e.getname())
+
+# #setter method(modify method)
+# class Emp:
+#     def __init__(self):
+#         self.id = 1001
+#         self.name = 'yogesh'
+#
+#     # accessor methods
+#     def getid(self):
+#         return self.id
+#
+#     def getName(self):
+#         return self.name
+#
+#     # setter methods
+#     def setid(self, id):
+#         self.id = id
+#
+#     def setname(self, name):
+#         self.name = name
+#
+# e = Emp()
+# print('id =', e.getid())
+# print('name =', e.getName())
+#
+# e.setid(8888)
+# e.setname('lami')
+#
+# print('id =', e.getid())
+# print('name =', e.getName())
+
+#class method
+# class myclass:
+#     x=10
+#     @classmethod
+#     def modify(cls):
+#         cls.x+=1
+# m1=myclass()
+# m2=myclass()
+# print(m1.x,m2.x)
+#
+
+#
+# class myclass:
+#     x = 10
+#
+#     @classmethod
+#     def modify(cls):
+#         cls.x+= 1
+#
+# m1 = myclass()
+# m2 = myclass()
+#
+# print(m1.x, m2.x)
+#
+# m1.modify()
+# print(m1.x,m2.x)
+
+# class Myclass:
+#     x=0
+#     def __init__(self):
+#         Myclass.x +=1
+#     @staticmethod
+#     def display():
+#         print('No. of objects=',Myclass.x)
+# m1=Myclass()
+# m2=Myclass()
+# m3=Myclass()
+#
+# Myclass.display()
+#
+
+
+# class Myclass:
+#     x = 0
+#
+#     def __init__(self):
+#         Myclass.x += 1
+#
+#     @staticmethod
+#     def display():
+#         print('No. of objects =', Myclass.x)
+#
+#
+# m1 = Myclass()
+# m2 = Myclass()
+# m3 = Myclass()
+#
+# Myclass.display()
+
+
+# class myclass:
+#     @staticmethod
+#     def sroot(x):
+#         return x** 0.5
+# res=myclass.sroot(16)
+# print('square root=',res)
+#
+# import math
+# res=math.sqrt(16)
+# print('square root=',res)
+
+
+#  chapter 13
+# inner calss
+# class student:
+#     def __init__(self):
+#         self.rno = 10
+#         self.name = 'bhoi'
+#
+#     def display(self):
+#         print('rno =', self.rno)
+#         print('name =', self.name)
+#
+#
+#     class dob:
+#         def __init__(self):
+#             self.dd = 16
+#             self.mm = 4
+#             self.yy = 2009
+#
+#         def display(self):
+#             print('date of birth = %d/%d/%d' % (self.dd, self.mm, self.yy))
+#
+#
+# st = student()
+# st.display()
+#
+# st_dob = student.dob()
+# st_dob.display()
+
+
+#abtravtion(hinding unneccesary data from the user)
+#
+# class bank:
+#     def __init__(self):
+#         self.accno=1001
+#         self.name='yog'
+#         self.address='at post kamkhda'
+#         self.phone='9404440792'
+#         self.bal=4000.00
+#         self.loan=1200000.00
+#     def display_to_clerk(self):
+#         print('accno=',self.accno)
+#         print('name=',self.name)
+#         print('address=',self.address)
+#         print('phoneno=',self.phone)
+#         print('balance rs=',self.bal)
+# b=bank()
+# b.display_to_clerk()
+# print(b.accno)
+# print(b.name)
+# print(b.address)
+# print(b.phone)
+# print(b.bal)
+# print(b.loan)
+
+#(not output in loan)
+# class bank:
+#     def __init__(self):
+#         self.accno=1001
+#         self.name='yog'
+#         self.address='at post kamkhda'
+#         self.phone='9404440792'
+#         self.bal=4000.00
+#         self.__loan=1200000.00
+#     def display_to_clerk(self):
+#         print('accno=',self.accno)
+#         print('name=',self.name)
+#         print('address=',self.address)
+#         print('phoneno=',self.phone)
+#         print('balance rs=',self.bal)
+# b=bank()
+# # b.display_to_clerk()
+# print(b.accno)
+# print(b.name)
+# print(b.address)
+# print(b.phone)
+# print(b.bal)
+# print(b.__loan)
+
+
+
+
+# #changing manaling(break abtraction loan ouput betel)
+# class bank:
+#     def __init__(self):
+#         self.accno=1001
+#         self.name='yog'
+#         self.address='at post kamkhda'
+#         self.phone='9404440792'
+#         self.bal=4000.00
+#         self.__loan=1200000.00
+#     def display_to_clerk(self):
+#         print('accno=',self.accno)
+#         print('name=',self.name)
+#         print('address=',self.address)
+#         print('phoneno=',self.phone)
+#         print('balance rs=',self.bal)
+# b=bank()
+# # b.display_to_clerk()
+# print(b.accno)
+# print(b.name)
+# print(b.address)
+# print(b.phone)
+# print(b.bal)
+# print(b._bank__loan)
+
+# from student import *
+# s=student()
+# s.setid(103)
+# s.setname('yog')
+# s.setaddress('at oust kamnbgs hsgs')
+# s.setmarks(444)
+#
+# print('id=',s.getid())
+# print('name=',s.getname())
+# print('address=',s.getaddress())
+# print('marks=',s.getmarks())
+
+
+
+# #chpater 14(super class)
+# class square:
+#     def __init__(self,x):
+#         self.x=x
+#     def area(self):
+#         print('area of square=',self.x*self.x)
+# class rectangle(square):
+#     def __init__(self,x,y):
+#         super().__init__(x)
+#         self.y=y
+#     def area(self):
+#         print('area ractangle of =',self.x*self.y)
+# r=rectangle(11,14.45)
+# r.area()
+
+#(operator  aries loading)
+#same operatore performing diff tasks
+# a=10
+# b=15
+# print(a+b)(addition)
+# a='hdra'
+# b='bad'
+# print(a+b)(concanitind)
+
+
+#method overloading
+# class myclass:
+#     @staticmethod
+#     def add(*x):
+#         s=sum(x)
+#         print('sum=',s)
+# myclass.add(10,20)
+
+#method overriding(dublicate method)
+# class super:
+#     def display(self):
+#         print('supaer class method')
+# class sub(super):
+#     def display(self):
+#         print('sub class method')
+# s=sub()
+# s.display()
+
+
+
+# #(duck typing)
+#
+# class duck:
+#     def talk(self):
+#         print('yog upg')
+# class dog:
+#     def talk(self):
+#         print('bow bow')
+# def call_talk(obj):
+#     obj.talk()
+# d=duck()
+# call_talk(d)
+
+# import time
+# ep=time.time()
+# print(ep)
+#
+# dt=time.ctime(ep)
+# print(dt )
+#
+# from datetime import*
+# dt=datetime.now()
+# print(dt)
+
+#(string formate)
+# from datetime import *
+# d,m,y= [int(i) for i in input('enter date (dd/mm/yyyy): ').split('/')]
+# dt = date(y,m,d)
+# str=dt.strftime('you were born on %A and it is %jth day in the year.')
+# print(str)
+
+#(working of duration)
+# from datetime import *
+# dt=datetime(2032,4,19, 11,33,55)
+# duration= timedelta(days=10,hours=20,minutes=39,seconds=10)
+# print('future date and time=',dt+duration)
+# print('past date and time=',dt-duration)
+
+# #sorting date
+# from datetime import *
+# n=int(input('how many dates?'))
+# lst=[]
+# for i in range(n):
+#     d,m,y =[int(x) for x in input('enter date (dd/mm/yyyy):').split('/')]
+#     dt=date(y,m,d)
+#     lst.append(dt)
+# lst.sort()
+# print('sorted dates:')
+# for i in lst:print(i)
+
+#clander moduls
+# import calendar as cl
+# a=cl.isleap(2022)
+# print(a)
+#
+# str=cl.month(2022,5)
+# print(str)
+#
+#
+# str=cl.calendar(2011)
+# print(str )
+
+
+#(chapter 15 regular exprission)
+# str='advanced\vpython'
+# print(str)
+
+# to search for string starting with m and having total 3 chacters
+# str='rat man sun mop run mat'
+# import re
+# obj=re.search(r'm\w\w',str)
+# if obj:
+#     print(obj.group())
+# else:
+#     print('not found')
+
+
+
+# finall method(machind word output )
+
+# str='rat man mat run gat man sun mak'
+
+# import re
+# lst=re.findall(r'm\w\w',str)
+# for i in lst:print(i)
+
+#a regular axprision extarct the number from the main string
+# str='yogesh 00000 vijay 3333 suba 222 manu 22222 dipw 2828282'
+# import re
+# lst=re.findall(r'\d+',str)
+# print(lst)
+
+#match function only biging mmatch occurance)
+
+# str='man sun mat cat mun mat sat saii'
+# import re
+# obj=re.match(r'm\w\w',str)
+# if obj:
+#     print(obj.group())
+# else:
+#     print('not found')
+
+#(onlly name gian)
+# str='gopi 234 yigdrd 333 dkdd 234874'
+# import re
+# lst=re.findall(r'\D+',str)
+# print(lst)
+
+
+
+import re
+
+# str = 'yogesh 20-3-2002,rohit 22-3-2001,ganu 10-2-2003,sum 11-11-2032'
+# lst = re.findall(r'\d{1,2}-\d{1,2}-\d{4}', str)
+#
+# for i in lst:
+#     print(i)
+#
+# import re
+# str='yogesh 20-12-2022,manu-11-12-2001,sagar 11-8-2028'
+# lst=re.findall(r'\d{1,2}-\d{1,2}-\d{4}',str)
+# for i in lst:print(i)
+#
+# import re
+# str='ankit arun akihr anat arati araunadati akki aniket'
+# lst=re.findall(r'a[nk]\w+',str)
+# print(lst)
+#
+# import re
+# str='gopi 3383 jay 38373 yog 2736 nk 63636'
+# lst=re.split(r'\d+',str)
+# print(lst)
+
+#sub and replace fun same working)
+# import re
+# str='yogesh bhoi will be grate persond in life struggal becusee yogesh not sucsses persond'
+# str1=re.sub('yogesh','jayguru',str)
+# print(str1)
+
+#use ^ and 4 symbol)
+
+# import re
+# str ='yogesh bhoi'
+# obj=re.search(r'hoi$',str)
+# if obj:
+#     print('found')
+# else:
+#     print('not found')
+
